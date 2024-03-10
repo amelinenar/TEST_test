@@ -22,7 +22,7 @@ def test_div(calculator):
 # Test case for division by zero
 def test_div_by_zero(calculator):
     with pytest.raises(ValueError):
-        calculator.div(10, 0)
+        calculator.division(10, 0)
 
 
 
