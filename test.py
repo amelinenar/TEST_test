@@ -15,9 +15,9 @@ def test_add(calculator):
 
 # Test case for the div method
 def test_div(calculator):
-    assert calculator.div(4, 2) == 2
-    assert calculator.div(-1, 1) == -1
-    assert calculator.div(0, 5) == 0
+    assert calculator.division(4, 2) == 2
+    assert calculator.division(-1, 1) == -1
+    assert calculator.division(0, 5) == 0
 
 # Test case for division by zero
 def test_div_by_zero(calculator):
