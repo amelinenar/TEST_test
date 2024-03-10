@@ -6,7 +6,7 @@ class Calculator:
         return numb1 + numb2
     def subtraction(self,numb1,numb2):
         return numb1 -  numb2
-    def diviion(self,numb1, numb2):
+    def division(self,numb1, numb2):
         return numb1/numb2
     def multiplication(self,numb1,numb2):
         return numb1*numb2
